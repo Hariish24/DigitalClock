@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Clock™</title>
+    <!-- adding logo -->
+    <link rel="icon" href="./images/logo1.jpg">
+    <!-- adding style -->
+    <link rel="stylesheet" href="style.css">
+    <!-- linking unicons stylesheet -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+</head>
+<body>
+    <nav>
+        <div class="container nav_container">
+            <a href="#"><h2>Digital Clock™</h2></a>
+        </div>
+    </nav>
+    <div class="digital-clock">
+        <i class="uil uil-ellipsis-v dot-menu-btn" id="active-menu"></i>
+        <ul class="dot-menu" id="active-menu">
+            <li class="menu-items" id="active-menu">
+                <span class="clock-format-text"id="active-menu">24-Hour Format</span>
+                <div class="format-switch-btn" id="active-menu" data-format="12"></div>
+            </li>
+        </ul>
+        <div class="time">
+            <span class="hours">00</span>
+            <span class="dots">:</span>
+            <span class="minutes">00</span>
+            <div class="right-side">
+                <span class="period">AM/PM</span>
+                <span class="seconds">00</span>
+            </div>
+        </div>
+        <div class="calendar">
+            <span class="month-name">Month</span>,
+            <span class="day-name">Day</span>
+            <span class="date-number">00</span>
+            <!-- <span class="year">0000</span> -->
+        </div>
+    </div>\
+    <script src="./main.js"></script>
+</body>
+</html>
