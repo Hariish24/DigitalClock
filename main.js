@@ -64,7 +64,7 @@ const monthName = today.toLocaleString("default",{month:"long"});
 document.querySelector(".month-name").innerHTML= monthName;
 document.querySelector(".day-name").innerHTML= dayName;
 document.querySelector(".date-number").innerHTML= dayNumber;
-//document.querySelector(".year").innerHTML= year;
+document.querySelector(".year").innerHTML= year;
 
 // for dot menu
 const dotmenuBtn = document.querySelector(".dot-menu-btn");
