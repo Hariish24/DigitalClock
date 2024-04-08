@@ -50,7 +50,7 @@ nav{
     right: -5px;
     z-index: -1;
     filter: blur(40px);
-    animation: glowing 10s ease infinite;
+    animation: glowing 5s ease infinite;
 }
 @keyframes glowing {
     0%{
